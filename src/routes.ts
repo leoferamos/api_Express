@@ -4,7 +4,7 @@ import { ListUsersController } from "./controller/user/ListUserController";
 import { DeleteUserController } from "./controller/user/DeleteUserController";
 import { EditUserController } from "./controller/user/EditUserController";
 import { AuthenticateUserController } from "./controller/user/AuthenticateUserController";
-
+import { ensureAuthenticated } from "./midleware/ensureAuthenticated";
 
 import { CreateProductController } from "./controller/product/CreateProductController";
 import { ListProductController } from "./controller/product/ListProductController";
@@ -36,6 +36,7 @@ const editCategoryController = new EditCategoryController();
 
 const router = Router();
 router.post("/login", autenticationUserController.handle);
+router.use(ensureAuthenticated)
 router.post("/users", createUserController.handle);
 router.get("/users", listUsersController.handle);
 router.delete("/users/:id", deleteUserController.handle);
