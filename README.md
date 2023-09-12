@@ -10,38 +10,7 @@ A API Express é um projeto de exemplo que demonstra como criar uma API simples 
 - bcryptjs
 - jsonwebtoken
 
-## Estrutura de Diretórios
 
-- **src**: Contém o código-fonte da API.
-  - **controller**: Controladores para manipular solicitações HTTP.
-    - **category**: Controladores para manipular categorias.
-      - `CreateCategoryController.ts`: Cria uma nova categoria.
-      - `DeleteCategoryController.ts`: Remove uma categoria.
-      - `EditCategoryController.ts`: Edita uma categoria.
-      - `ListCategoryController.ts`: Lista todas as categorias.
-    - **product**: Controladores para manipular produtos.
-      - `CreateProductController.ts`: Cria um novo produto.
-      - `DeleteProductController.ts`: Remove um produto.
-      - `EditProductController.ts`: Edita um produto.
-      - `ListProductController.ts`: Lista todos os produtos.
-    - **user**: Controladores para manipular usuários.
-      - `AuthenticateUserController.ts`: Autentica um usuário.
-      - `CreateUserController.ts`: Cria um novo usuário.
-      - `DeleteUserController.ts`: Remove um usuário.
-      - `EditUserController.ts`: Edita um usuário.
-      - `ListUsersController.ts`: Lista todos os usuários.
-  - **middleware**: Middlewares da aplicação.
-    - `ensureAuthenticated.ts`: Middleware para garantir a autenticação.
-  - **service**: Lógica de negócios da aplicação.
-    - **category**: Serviços relacionados a categorias.
-      - `CreateCategoryService.ts`: Lógica para criar uma categoria.
-    - **product**: Serviços relacionados a produtos.
-      - `CreateProductService.ts`: Lógica para criar um produto.
-    - **user**: Serviços relacionados a usuários.
-      - `AuthenticateUserService.ts`: Lógica para autenticar um usuário.
-      - `CreateUserService.ts`: Lógica para criar um usuário.
-- **routes.ts**: Define as rotas da API e conecta os controladores.
-- **server.ts**: Inicializa o servidor Express e configura as rotas.
 
 ## Como Usar
 
@@ -87,6 +56,39 @@ git clone <URL-do-Repositório><br>
 - `DELETE /categories/:id`: Remove uma categoria.
 
 - `PUT /categories/:id`: Edita uma categoria.
+
+## Estrutura de Diretórios
+
+- **src**: Contém o código-fonte da API.
+  - **controller**: Controladores para manipular solicitações HTTP.
+    - **category**: Controladores para manipular categorias.
+      - `CreateCategoryController.ts`: Cria uma nova categoria.
+      - `DeleteCategoryController.ts`: Remove uma categoria.
+      - `EditCategoryController.ts`: Edita uma categoria.
+      - `ListCategoryController.ts`: Lista todas as categorias.
+    - **product**: Controladores para manipular produtos.
+      - `CreateProductController.ts`: Cria um novo produto.
+      - `DeleteProductController.ts`: Remove um produto.
+      - `EditProductController.ts`: Edita um produto.
+      - `ListProductController.ts`: Lista todos os produtos.
+    - **user**: Controladores para manipular usuários.
+      - `AuthenticateUserController.ts`: Autentica um usuário.
+      - `CreateUserController.ts`: Cria um novo usuário.
+      - `DeleteUserController.ts`: Remove um usuário.
+      - `EditUserController.ts`: Edita um usuário.
+      - `ListUsersController.ts`: Lista todos os usuários.
+  - **middleware**: Middlewares da aplicação.
+    - `ensureAuthenticated.ts`: Middleware para garantir a autenticação.
+  - **service**: Lógica de negócios da aplicação.
+    - **category**: Serviços relacionados a categorias.
+      - `CreateCategoryService.ts`: Lógica para criar uma categoria.
+    - **product**: Serviços relacionados a produtos.
+      - `CreateProductService.ts`: Lógica para criar um produto.
+    - **user**: Serviços relacionados a usuários.
+      - `AuthenticateUserService.ts`: Lógica para autenticar um usuário.
+      - `CreateUserService.ts`: Lógica para criar um usuário.
+- **routes.ts**: Define as rotas da API e conecta os controladores.
+- **server.ts**: Inicializa o servidor Express e configura as rotas.
 
 ## Autenticação
 
