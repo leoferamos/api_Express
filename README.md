@@ -6,7 +6,7 @@ A API Express é um projeto de exemplo que demonstra como criar uma API simples 
 
 - <a href="https://nodejs.org/pt-br/docs">Node.js
 - <a href="https://expressjs.com/pt-br/">Express.js
-- TypeScript
+- <a href="https://www.typescriptlang.org"/>TypeScript
 - bcryptjs
 - jsonwebtoken
 
