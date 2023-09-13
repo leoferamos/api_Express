@@ -1,21 +1,21 @@
 # API Express
 
-A API Express é um projeto de exemplo que demonstra como criar uma API simples usando o Node.js e o framework Express. Este projeto inclui endpoints para manipular categorias de produtos, produtos e usuários, bem como autenticação básica.
+A API Express é um projeto de exemplo que demonstra como criar uma API simples usando o <a href="https://nodejs.org/pt-br/docs">Node.js</a> e o framework <a href="https://expressjs.com/pt-br/">Express</a>. Este projeto inclui endpoints para manipular categorias de produtos, produtos e usuários, bem como autenticação básica.
 
 ## Tecnologias Utilizadas
 
-- <a href="https://nodejs.org/pt-br/docs">Node.js
-- <a href="https://expressjs.com/pt-br/">Express.js
-- <a href="https://www.typescriptlang.org"/>TypeScript
-- <a href="https://www.npmjs.com/package/bcryptjs">bcryptjs
-- <a href="https://www.npmjs.com/package/jsonwebtoken">jsonwebtoken
+- <a href="https://nodejs.org/pt-br/docs">Node.js</a>
+- <a href="https://expressjs.com/pt-br/">Express.js</a>
+- <a href="https://www.typescriptlang.org"/>TypeScript</a>
+- <a href="https://www.npmjs.com/package/bcryptjs">bcryptjs</a>
+- <a href="https://www.npmjs.com/package/jsonwebtoken">jsonwebtoken</a>
 
 
 
 ## Como Usar
 
 1. Clone este repositório para a sua máquina local.<br>
-git clone <URL-do-Repositório><br>
+git clone https://github.com/leoferamos/api_Express<br>
 
 2. Instale as dependências usando o Yarn.<br>
    yarn install<br>
