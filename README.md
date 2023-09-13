@@ -4,7 +4,7 @@ A API Express é um projeto de exemplo que demonstra como criar uma API simples 
 
 ## Tecnologias Utilizadas
 
-- Node.js
+- <a href="https://nodejs.org/pt-br/docs">Node.js
 - Express.js
 - TypeScript
 - bcryptjs
