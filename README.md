@@ -52,7 +52,7 @@ git clone https://github.com/leoferamos/api_Express<br>
 - `POST /categories`: Cria uma nova categoria.
 
 - `GET /categories`: Lista todas as categorias.
-
+ 
 - `DELETE /categories/:id`: Remove uma categoria.
 
 - `PUT /categories/:id`: Edita uma categoria.
