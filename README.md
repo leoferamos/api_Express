@@ -26,7 +26,7 @@ git clone https://github.com/leoferamos/api_Express<br>
 ## Rotas da API
 
 ### Usuários 
-
+ 
 - `POST /login`: Autentica um usuário.
 
 - `POST /users`: Cria um novo usuário.
