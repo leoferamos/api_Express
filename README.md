@@ -37,7 +37,7 @@ git clone https://github.com/leoferamos/api_Express<br>
 
 - `PUT /users/:id`: Edita um usuário.
 
-### Produtos
+### Produtos 
 
 - `POST /products`: Cria um novo produto.
 
