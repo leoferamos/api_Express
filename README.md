@@ -28,7 +28,7 @@ git clone https://github.com/leoferamos/api_Express<br>
 ### Usuários 
  
 - `POST /login`: Autentica um usuário.
-
+ 
 - `POST /users`: Cria um novo usuário.
 
 - `GET /users`: Lista todos os usuários.
